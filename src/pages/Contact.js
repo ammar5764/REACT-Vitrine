@@ -24,6 +24,7 @@ const Contact = () => {
                             <p>79818 Jerusalem</p>
                         </div>
                     </div>
+
                     <div className="phone">
                         <div className="content">
                             <h4>telephone</h4>
@@ -31,6 +32,7 @@ const Contact = () => {
                                 <p style={{cursor:"pointer"}} className="clipboard" onClick={()=>alert("téléphone copié")}>02640000</p>
                             </CopyToClipboard>
                         </div>
+              
                     </div>
                     <div className="email">
                         <div className="content">
@@ -39,6 +41,7 @@ const Contact = () => {
                                 <p style={{cursor:"pointer"}} className="clipboard" onClick={()=>alert("email copié")}>web-agency@gmail.com</p>
                             </CopyToClipboard>
                         </div>
+                    
                     </div>
                     <SocialNetwork/>
                     <div className="credits">
@@ -46,7 +49,7 @@ const Contact = () => {
                     </div>
                 </div>
             </div>
-
+        
         </main>
     );
 };

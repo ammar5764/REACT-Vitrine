@@ -3,19 +3,24 @@
 .container{
     display: flex;
     justify-content: center;
+    align-items: center;
   margin-left: 950px;
   margin-top: 12px;
-
 }
-.sign-in{
-    padding: 7px;
-    font-size: 18px;
-    margin-right: 5px;
-    font-weight: 500;
- 
+
+button {
+  width:80px;
+  height: 30px;
+  font-size: 0.7rem;
+  margin: 15px;
+
+  
+  cursor: pointer;
+
+  &:hover {
+    filter: brightness(110%);
+  }
 }
  .sign-up{
-    padding: 7px;
-    font-size: 18px;
-    font-weight: 500;
- }
+  margin-left: 20px;
+}
